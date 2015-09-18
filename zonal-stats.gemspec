@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Miguel Torres"]
   s.email       = 'migtorres@gmail.com'
   s.files       = ["lib/zonal-stats.rb"]
-  s.homepage    =
-    'http://rubygems.org/gems/zonal-stats'
+  s.homepage    = 'http://rubygems.org/gems/zonal-stats'
   s.license       = 'BSD2'
+  s.add_development_dependency "rspec"
 end
