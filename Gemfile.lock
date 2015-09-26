@@ -2,11 +2,13 @@ PATH
   remote: .
   specs:
     zonal-stats (0.0.0)
+      gdal (~> 1.0.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
+    gdal (1.0.0)
     rspec (3.3.0)
       rspec-core (~> 3.3.0)
       rspec-expectations (~> 3.3.0)
@@ -26,4 +28,5 @@ PLATFORMS
 
 DEPENDENCIES
   rspec
+  rspec-mocks
   zonal-stats!

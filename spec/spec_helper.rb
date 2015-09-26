@@ -2,7 +2,8 @@ require 'bundler/setup'
 Bundler.setup
 
 require 'zonal-stats' # and any other gems you need
+require 'rspec/mocks'
 
 RSpec.configure do |config|
-  # some (optional) config here
+  config.mock_with :rspec
 end

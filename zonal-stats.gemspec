@@ -10,4 +10,6 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://rubygems.org/gems/zonal-stats'
   s.license       = 'BSD2'
   s.add_development_dependency "rspec"
+  s.add_development_dependency "rspec-mocks"
+  s.add_dependency "gdal", "~> 1.0.0"
 end
